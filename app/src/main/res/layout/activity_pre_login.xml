@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.PreLogin">
+
+    <TextView
+        android:id="@+id/tv_limpieza"
+        android:layout_width="339dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Nuestro personal de limpieza previamente ha pasado un proceso de validación interno que solo superan el 43% de los candidatos."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/iv_limpiar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_limpiar" />
+
+    <ImageView
+        android:id="@+id/iv_limpiar"
+        android:layout_width="339dp"
+        android:layout_height="398dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_nuevo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_limpieza"
+        app:srcCompat="@drawable/personal"
+        />
+
+
+    <Button
+        android:id="@+id/btn_nuevo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/header_footer"
+        android:hint="Soy nuevo"
+        android:textColorHint="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_miembro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_limpiar" />
+
+    <Button
+        android:id="@+id/btn_miembro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/header_footer"
+        android:hint="Ya soy miembro"
+        android:textSize="18dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_nuevo"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82415620187",
+    "project_id": "appdoit-10d24",
+    "storage_bucket": "appdoit-10d24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82415620187:android:dc73b90121fa4fa00fef7e",
+        "android_client_info": {
+          "package_name": "com.example.doit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82415620187-nbdr2ejtdc4qbhr42kqpaasrbd4hdvss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl_5F578PBu4jQi6vQMLvLb9FU8J_NYuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82415620187-nbdr2ejtdc4qbhr42kqpaasrbd4hdvss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

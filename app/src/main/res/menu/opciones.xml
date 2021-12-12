@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miPerfil"
+        android:title="Mi Perfil"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/notificacion"
+        android:title="Notificación"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mapa"
+        android:title="Mapa"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/configuracion"
+        android:title="Configuración"
+        android:icon="@drawable/ic_mas"
+        android:orderInCategory="4"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/salir"
+        android:title="Salir"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+
+</menu>

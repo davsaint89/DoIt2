@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="personal">
+        <item>Maria Cruz</item>
+        <item>Leidy Sierra</item>
+        <item>Rosaura Martinez</item>
+        <item>Luz Mary Garcia</item>
+        <item>Irene Rodríguez</item>
+    </array>
+
+    <string-array name="tipoHorario">
+        <item>Mañana</item>
+        <item>Tarde</item>
+        <item>Noche</item>
+    </string-array>
+
+    <string-array name="valorHorario">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

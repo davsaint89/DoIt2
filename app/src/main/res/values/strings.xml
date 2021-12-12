@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DoIt</string>
+    <string name="texto_inicio">Hello World!</string>
+    <string name="hola_colombia">Hola Colombia</string>
+    <string name="button_ingresar">Ingresar</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_contraseña">Contraseña</string>
+    <string name="b_ingresar">Ingresar</string>
+    <string name="b_iniciarSesion">Iniciar sesión</string>
+    <string name="txt_bienvenido">Bienvenido a DoIt</string>
+    <string name="txt_eficiente">EFICIENTE</string>
+    <string name="txt_personalLimpieza">PERSONAL DE LIMPIEZA</string>
+    <string name="b_continuar">Continuar</string>
+    <string name="tv_registrate">¿No tienes cuenta? Registrate</string>
+    <string name="etxt_nombre">Nombre</string>
+    <string name="etxt_tipoDocumento">Tipo Documento</string>
+    <string name="etxt_documento">Documento</string>
+    <string name="etxt_correoElectronico">Correo electrónico</string>
+    <string name="etxt_direccion">Direccion</string>
+    <string name="etxt_ciudad">Ciudad</string>
+    <string name="etxt_telefono">Telefono</string>
+    <string name="tv_registro">Registro</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_documento">Documento</string>
+    <string name="txt_correo">Correo electrónico</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_direccion">Direccion</string>
+    <string name="txt_ciudad">Ciudad</string>
+    <string name="txt_telefono">Telefono</string>
+    <string name="txt_ajustePerfil">Ajuste de Perfil</string>
+    <string name="txt_tipoDocumento">Tipo Documento</string>
+    <string name="tv_preguntaDos">¿En qué zona de la ciudad estas?</string>
+    <string name="start">iniciando app</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

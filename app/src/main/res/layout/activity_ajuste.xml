@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.Ajuste">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/header_footer">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_ajustePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_ajustePerfil"
+        android:textColor="@color/azul_general"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tv_preguntaUno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintVertical_bias="0.18">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_preguntaUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿En qué ciudad deseas el servicio?"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ajustePerfil"
+        app:layout_constraintVertical_bias="0.18">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_preguntaDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_preguntaDos"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_preguntaUno"
+        app:layout_constraintVertical_bias="0.18">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/header_footer"
+        />
+    <Button
+        android:id="@+id/b_continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b_continuar"
+        android:backgroundTint="@color/btn_naranja"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/footer"
+        app:layout_constraintEnd_toEndOf="@id/footer"
+        app:layout_constraintStart_toStartOf="@id/footer"
+        app:layout_constraintTop_toTopOf="@id/footer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
